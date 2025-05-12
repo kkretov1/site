@@ -131,10 +131,10 @@ WSGI_APPLICATION = 'app.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'marketplace',
-        'USER': 'Konstantin',
+        'NAME': 'marketplace_j0yl',
+        'USER': 'konstantin',
         'PASSWORD': os.getenv('DB_PASSWORD'),
-        'HOST': 'localhost',
+        'HOST': 'dpg-d0gl1524d50c73futejg-a',
         'PORT': '5432',
     }
 }
